@@ -1,2 +1,3 @@
 # ProjectEuler.net
-ProjectEuler implementations
+Personal implementation of [Duck Duck Go](https://projecteuler.net/).
+Starting from scratch since my previous work was before I knew what git was...
