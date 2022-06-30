@@ -1,6 +1,7 @@
 #pragma once
 #include <map>
 #include <iostream>
+#include <chrono>
 
 #include "Problem.hpp"
 
@@ -36,7 +37,12 @@ public:
 				std::cout << desc << "\n";
 			}
 			std::cout << "==================================\n";
+			//run solver
+			auto start = std::chrono::steady_clock::now();
 			itr->second->Run();
+			auto end = std::chrono::steady_clock::now();
+			std::chrono::duration<double> elapsed_seconds = end - start;
+			std::cout << "elapsed time: " << elapsed_seconds.count() << "s\n";
 		}
 		else
 		{
