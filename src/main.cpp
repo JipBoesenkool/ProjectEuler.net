@@ -1,15 +1,8 @@
 #include "ProblemRegister.hpp"
+#include "Problems/Problems.hpp"
 #include "String.hpp"
 
 #include <iostream>
-
-//TODO: register problems
-#include "problems/Problems1.hpp"
-void Register(ProblemRegister* pRegister)
-{
-	pRegister->Register<Problem1>();
-};
-
 //vars
 ProblemRegister problems;
 bool bIsRunning = true;
