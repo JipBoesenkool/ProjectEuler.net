@@ -32,7 +32,8 @@ public:
 			const std::string desc = itr->second->Description;
 			if (desc.empty() == false)
 			{
-				std::cout << "Description: " << desc << ".\n";
+				std::cout << "Description: \n";
+				std::cout << desc << "\n";
 			}
 			std::cout << "==================================\n";
 			itr->second->Run();
