@@ -6,3 +6,7 @@ Euler account: jipjip
 ### TODO:
 - run all
 - output results and performance to file
+
+### problem notes:
+2. Fibonacci
+5. Least common multiple (LCM) Using the greatest common divisor
